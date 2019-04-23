@@ -4,24 +4,23 @@ html {
     text-align: -webkit-center;
 }
 .header {
-    background-color: lightskyblue;
-    width: 1200px;
+    background-color: aliceblue;
+    width: -webkit-fill-available;
     height: auto;
-    padding: 10px;
+    padding: 1%;
     margin: 10px;
     font-size: xx-large;
-    text-align: -webkit-center;
 }
 
 .nav {
-    width: 1200px;
+    width: -webkit-fill-available;
     height: 30px;
     padding: 10px;
     margin: 10px;
 }
 
 .nav_left {
-    background-color: red;
+    background-color: aliceblue;
     width: 20%;
     float: left;
     font-size: x-large;
@@ -29,15 +28,15 @@ html {
 }
 
 .nav_right {
-    background-color: red;
+    background-color: aliceblue;
     width: 20%;
     float: right;
     font-size: x-large;
 }
 
 .contents {
-    background-color: orange;
-    width: 1200px;
+    background-color: aliceblue;
+    width: -webkit-fill-available;
     height: 100px;
     padding: 10px;
     margin: 10px;
@@ -63,13 +62,28 @@ html {
 }
 
 .sub {
-    background-color: aqua;
     float: right;
     width: 20%;
-    height: fit-content;
+    height: 100%;
+}
+
+.sub_category {
+    background-color: white;
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
+
+.sub_new {
+    background-color: white;
+    margin-right: 1%;
+    margin-bottom: 10px;
 }
 
 .footer {
-    background-color: brown;
+    background-color: aliceblue;
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 1%;
     margin: 10px;
+    font-size: 20px;
 }

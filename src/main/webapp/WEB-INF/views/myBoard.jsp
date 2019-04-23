@@ -6,10 +6,12 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="resources/css/myBoard.css"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="resources/script/myBoard.js"></script>
 <title>myBoard</title>
 </head>
 <body>
-	<header class="header">My Board</header>
+	<header class="header" onclick="home()">My Board</header>
 	
 	<div class="nav">
 		<div class="nav_left">메뉴1</div>
@@ -20,14 +22,16 @@
 	
 	<div class="contents">
 		<div class="main">
-		<div class="main_title">타이틀</div>
-		<div class="main_contents">내용</div>
+			<div class="main_title">타이틀</div>
+			<div class="main_contents">내용</div>
 		</div>
 		<div class="sub">
-		2번구역
-		</div>
-		<div class="new">
-		
+			<div class="sub_category">
+				카테고리
+			</div>
+			<div class="sub_new">
+				최신글
+			</div>
 		</div>
 	</div>
 	
